@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login details capture:  Test snapshot of login form 1`] = `
+<div
+  className="row"
+  style={
+    Object {
+      "justifyContent": "center",
+      "marginTop": "15%",
+    }
+  }
+>
+  <div
+    className="col-lg-6"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        Welcome to TDD with React Training
+      </div>
+      <div
+        className="card-body"
+      >
+        <form
+          className=""
+          onSubmit={[Function]}
+        >
+          <input
+            className="form-control"
+            onChange={[Function]}
+            placeholder="Enter your name"
+            type="text"
+          />
+          <br />
+          <button
+            className="btn btn-success btn-block"
+            disabled={true}
+            onClick={[Function]}
+            type="submit"
+          >
+            Enter
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

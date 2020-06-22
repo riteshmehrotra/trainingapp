@@ -1,25 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
+import Login from './login';
+import HomePage from './homePage';
 
-function App() {
+const App = () => {
+  let [user, setName] = useState(undefined);
+
+  let homePage = user ? <HomePage user={user} ></HomePage> :
+    <Login onSubmit={(nameInput) => setName(nameInput)}></Login>;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid >
+      {homePage}
+    </Container>
   );
 }
 

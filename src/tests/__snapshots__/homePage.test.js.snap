@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page with language selection bar and welcome note Test that home page displayed with language bar 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="ml-auto nav"
+      onKeyDown={[Function]}
+    >
+      <h5>
+        <span
+          className="badge badge-primary"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          EN
+        </span>
+        <span
+          className="badge badge-secondary"
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+            }
+          }
+        >
+          ES
+        </span>
+      </h5>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg"
+    >
+      <div
+        className="card"
+      >
+        <div
+          className="card-header"
+        >
+          <div>
+            <h3>
+              Hello
+              ! 
+              David
+            </h3>
+            <h4>
+              Welcome to TDD with React training
+            </h4>
+          </div>
+        </div>
+        <div
+          className="card-body"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
