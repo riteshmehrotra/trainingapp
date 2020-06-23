@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home page with language selection bar and welcome note Test that home page displayed with language bar 1`] = `
+exports[`Home page with language selection bar and welcome note Test that home page displayed with language bar, welcome note and topics 1`] = `
 <div
   className="container"
 >
@@ -62,7 +62,11 @@ exports[`Home page with language selection bar and welcome note Test that home p
         </div>
         <div
           className="card-body"
-        />
+        >
+          <div
+            className="card-deck"
+          />
+        </div>
       </div>
     </div>
   </div>
